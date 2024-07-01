@@ -3,43 +3,26 @@
     padding: 0;
 }
 
-.card-container {
-	width: 70%;
+#container {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
-	margin: 0 auto;
-}
-
-.card-container .card-holder {
-	display: flex;
-	flex-direction: column;
-	width: 33%;
-	min-height: 100px;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 300px;
 	background: #ccc;
 }
 
-#card {
-	width: 95%;
-	margin: 0 auto;
+.wrapper {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	background: #4c4c4c;
 }
 
-#card .card-image-holder {
-
-} 
-
-#card .card-description {
-
-}
-
-#card .button-box {
+#box {
+	display: inline-block;
 	width: 100%;
-}
-
-#card .button-box button {
-	width: 100%;
-	height: 40px;
-	background: #cc0022;
-	border: none;
-	color: #fff;
+	height: 100px;
+	background: #c4c4c4;
+	margin-top: 10px;
 }
