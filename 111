@@ -1,5 +1,6 @@
 <NotepadPlus>
     <Project name="111">
+        <File name="111" />
         <File name="index.html" />
         <File name="script.js" />
         <File name="style.css" />
